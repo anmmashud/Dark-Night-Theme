@@ -16,6 +16,7 @@ jobs:
         run: |
           chmod +x script/bootstrap
           chmod +x script/cibuild
+          chmod +x script/validate-html
       - name: Install dependencies
         run: script/bootstrap
       - name: Run tests
